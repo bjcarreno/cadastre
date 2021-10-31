@@ -1,0 +1,10 @@
+{
+    "serverPort": 5432,
+    "db": {
+        "host": "localhost",
+        "dialect": "postgres",
+        "database": "cadastre",
+        "username": "postgres",
+        "password": "Bjeffer0c3"
+    }
+  }

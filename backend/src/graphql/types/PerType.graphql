@@ -1,0 +1,16 @@
+type PerType{
+    id: UUID!
+    description: String!
+}
+
+type Query{
+    getPerTypes:[PerType]
+}
+
+type Mutation{
+    createPerType(input: createPerTypeInput):PerType!
+}
+
+input createPerTypeInput{
+    Description: String!
+}

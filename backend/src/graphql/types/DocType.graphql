@@ -1,0 +1,16 @@
+type DocType{
+    id: UUID!
+    Description: String!
+}
+
+type Query{
+    getDocTypes:[PerType]
+}
+
+type Mutation{
+    createDocType(input: createDocTypeInput):PerType!
+}
+
+input createDocTypeInput{
+    Description: String!
+}
