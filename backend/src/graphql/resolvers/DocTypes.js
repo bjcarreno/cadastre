@@ -7,6 +7,7 @@ export default{
     Mutation: {
         createDocType(parent, { input}, {models}){
             return  models.DocTypes.create({...input})
+            /* esto es una prueba*/
         } 
     }    
 }
